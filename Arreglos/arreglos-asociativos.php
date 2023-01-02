@@ -35,6 +35,7 @@ $personas = array(
     )
 );
 
+// Está es una forma bien rara de escribir el dato de un arreglo sin necesidad de hacerle una concatenación, ta bien chido :O
 echo "La información de Mr. Michi es: Edad({$personas['Mr.Michi']['edad']}) Apellido({$personas['Mr.Michi']['apellido']})";
 
 echo "\n";
